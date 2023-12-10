@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', arial;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 174, 0);
+}
+
+body {
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+p {
+    color: white;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+}
+
+input[type="text"]::placeholder {
+    color: white;
+}
+
+input[type="button"] {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    font-size: 55px;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    margin: 6px;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    border: none;
+    text-align: end;
+    color: white;
+    font-size: 66px;
+    background-color: transparent;
+    width: 400px;
+    padding: 0 10px;
+    height: 100px;
+}
+
+#clear {
+    width: 96%;
+    color: black;
+    background-color: rgb(158, 157, 157);
+    border-radius: 50px 50px;
+}
+
+
+#btn-yellow {
+    background-color: rgb(255, 174, 0);
+}
+
+@media (max-width:500px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+    input[type="text"] {
+        width: 300px;
+        font-size: 50px;
+    }
+
+    input[type="button"] {
+        width: 70px;
+        height: 70px;
+        font-size: 45px;
+    }
+}
+
+@media (max-width:350px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    input[type="text"] {
+        width: 250px;
+        font-size: 40px;
+    }
+
+    input[type="button"] {
+        width: 60px;
+        height: 60px;
+        font-size: 35px;
+    }
+
+}
